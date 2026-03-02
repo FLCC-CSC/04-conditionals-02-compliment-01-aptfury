@@ -1,8 +1,8 @@
 # FILE NAME - compliment_01.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Blake Lemarr
+# DATE: 03/02/2026
+# BRIEF DESCRIPTION: A program that gives the user a compliment when they answer 'yes' to the prompt. 
 
 
 
@@ -15,14 +15,12 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+resp: str = input('Would you like a compliment? ')
 
+if resp == 'yes':
+    print('You have wonderful eyes.')
 
-
-
-
-
-
-
+print('Thank you for playing.')
 
 ########### END YER CODE ABOVE THIS LINE ###########
 
@@ -66,11 +64,15 @@ Thank you for playing.
 '''
 
 1. On a scale of 1 to 10 (where 10 is the hardest), how would you rate this lab?
-
+I would say a 1, but I've also been programming with JavaScript for nearly 10 years
+and with Python for about 6 months, so I'm fairly comfortable with conditionals.
 
 
 
 2. What was the hardest part of this lab?
+The hardest part is remembering input as a mechanic. While I've done my fair
+share of programming, I've never actually asked a user for feedback via the terminal
+so it's not something I have much experience or have had to remember how to do before.
 
 
 
